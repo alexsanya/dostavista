@@ -15,5 +15,8 @@ $(document).ready(function () {
     };
 
     $('body').replaceText();
-    $('.clickable').css('cursor', 'not-allowed').click(function(){$(this).hide()});
+    $('.clickable').css('cursor', 'not-allowed').click(function (e){
+        $(this).hide();
+        e.preventDefault();
+    });
 });
