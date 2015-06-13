@@ -1,0 +1,165 @@
+html body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font: normal 100% Helvetica, Arial, sans-serif;
+}
+html body .page {
+  max-width: 1233px;
+  min-width: 500px;
+  margin: auto;
+}
+html body .page a.order-form-link {
+  color: #d7679f;
+}
+html body .page .header {
+  position: relative;
+  text-align: center;
+}
+html body .page .header img {
+  max-width: 100%;
+  display: block;
+}
+html body .page .header .caption {
+  position: absolute;
+  width: 67%;
+  height: 50%;
+  color: white;
+  font-weight: bold;
+  top: 20%;
+  left: 18.08%;
+}
+@media all and (min-width: 500px) {
+  html body .page .header .caption {
+    font-size: 1em;
+  }
+}
+@media all and (min-width: 573px) {
+  html body .page .header .caption {
+    font-size: 1.1460000000000001em;
+  }
+}
+@media all and (min-width: 646px) {
+  html body .page .header .caption {
+    font-size: 1.292em;
+  }
+}
+@media all and (min-width: 719px) {
+  html body .page .header .caption {
+    font-size: 1.438em;
+  }
+}
+@media all and (min-width: 792px) {
+  html body .page .header .caption {
+    font-size: 1.584em;
+  }
+}
+@media all and (min-width: 865px) {
+  html body .page .header .caption {
+    font-size: 1.73em;
+  }
+}
+@media all and (min-width: 938px) {
+  html body .page .header .caption {
+    font-size: 1.8760000000000001em;
+  }
+}
+@media all and (min-width: 1011px) {
+  html body .page .header .caption {
+    font-size: 2.0220000000000002em;
+  }
+}
+@media all and (min-width: 1084px) {
+  html body .page .header .caption {
+    font-size: 2.168em;
+  }
+}
+@media all and (min-width: 1157px) {
+  html body .page .header .caption {
+    font-size: 2.314em;
+  }
+}
+@media all and (min-width: 1230px) {
+  html body .page .header .caption {
+    font-size: 2.46em;
+  }
+}
+html body .page .header .contact-bar {
+  background: #f8f5ed;
+  padding: 1em;
+}
+html body .page .header .contact-bar a {
+  font-weight: bold;
+}
+html body .page .header .contact-bar .phone {
+  font-weight: bold;
+}
+html body .page .contant-main {
+  padding: 2.8em;
+  padding-top: 0.5em;
+  line-height: 1.2;
+}
+html body .page .contant-main h3 {
+  text-align: center;
+  font-size: 1.4em;
+}
+html body .page .contant-main .list-item {
+  border-top: 1.5px solid #f8f5ed;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  overflow: hidden;
+}
+html body .page .contant-main .list-item .question {
+  float: left;
+  font-weight: bold;
+  width: 39%;
+  margin-right: 1%;
+}
+html body .page .contant-main .list-item .answer {
+  float: right;
+  width: 60%;
+}
+html body .page .contant-main .list-item.last {
+  border-bottom: 1.5px solid #f8f5ed;
+}
+html body .page .contant-main .footer {
+  margin-left: 1.8%;
+}
+html body .page .contant-main .footer h3 {
+  margin-left: -1.8%;
+}
+html body .page .contant-main .footer .phase {
+  float: left;
+  width: 19.46%;
+  margin-right: 10px;
+  min-width: 200px;
+  padding-right: 40px;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+html body .page .contant-main .footer .phase .picture {
+  width: 84px;
+  height: 84px;
+  margin-left: 25%;
+  background: url('../img/in-description-sprite.png');
+}
+html body .page .contant-main .footer .phase .picture.apply {
+  background-position: 0 0;
+}
+html body .page .contant-main .footer .phase .picture.location {
+  background-position: -94px 0;
+}
+html body .page .contant-main .footer .phase .picture.notice {
+  background-position: -188px 0;
+}
+html body .page .contant-main .footer .phase .picture.estimate {
+  background-position: -282px 0;
+}
+html body .page .contant-main .footer .arrow {
+  float: right;
+  margin-top: 20px;
+  margin-right: -40px;
+  background: url('../img/in-description-arrow.png');
+  width: 40px;
+  height: 40px;
+}

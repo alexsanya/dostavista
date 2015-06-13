@@ -1,0 +1,132 @@
+html {
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		font: normal 100% Helvetica, Arial, sans-serif;
+		.page {
+			max-width: 1233px;
+			min-width: 500px;
+			margin: auto;
+
+			a.order-form-link {
+				color: #d7679f;
+			}
+
+			.header {
+				position: relative;
+				text-align: center;
+				img {
+					max-width: 100%;
+					display: block;
+				}
+				.caption {
+
+					@mqIterations: 500;
+					.fontResize(@i) when (@i < 1240) {
+						@minWidth: %("%dpx", @i);
+		    			@media all and (min-width: ~"@{i}px") {& { font-size:0.002em * @i;} }
+		    				.fontResize((@i + 73));
+					}
+					.fontResize(@mqIterations);
+
+					position: absolute;
+					width:67%;
+					height:50%;
+					color: white;
+					font-weight: bold;
+					top: 20%;
+					left: 18.08%;
+				}
+
+				.contact-bar {
+					background: #f8f5ed;
+					padding: 1em;
+					a {
+						font-weight: bold;
+					}
+					.phone {
+						font-weight: bold;
+					}
+				}
+			}
+
+			.contant-main {
+				padding: 2.8em;
+				padding-top: 0.5em;
+				line-height: 1.2;
+
+				h3 {
+					text-align: center;
+					font-size: 1.4em;
+				}
+
+				.list-item {
+					border-top: 1.5px solid #f8f5ed;
+					padding-top: 1.5em;
+					padding-bottom: 1.5em;
+					overflow: hidden;
+					.question {
+						float: left;
+						font-weight: bold;
+						width: 39%;
+						margin-right: 1%;
+					}
+					.answer {
+						float: right;
+						width: 60%;
+					}
+					&.last {
+						border-bottom: 1.5px solid #f8f5ed;
+					}
+				}
+
+				.footer {
+					margin-left: 1.8%;
+					h3 {
+						margin-left: -1.8%;
+					}
+					.phase {
+						float: left;
+						width: 19.46%;
+						margin-right: 10px;
+						min-width: 200px;
+						padding-right: 40px;
+						font-size: 0.9em;
+  						line-height: 1.4;
+						.picture {
+							width: 84px;
+							height: 84px;
+							margin-left: 25%;
+							background: url('../img/in-description-sprite.png');
+
+							&.apply {
+								 background-position: -0 0;
+							}
+
+							&.location {
+								 background-position: -94px 0;
+							}
+
+							&.notice {
+								 background-position: -188px 0;
+							}
+
+							&.estimate {
+								background-position: -282px 0;
+							}
+						}
+					}
+					.arrow {
+						float: right;
+						margin-top: 20px;
+						margin-right: -40px;
+						background: url('../img/in-description-arrow.png');
+						width: 40px;
+  						height: 40px;
+					}
+				}
+			}
+		}
+	}
+}
